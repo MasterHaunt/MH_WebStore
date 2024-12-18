@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MH-WebStore - контакты</title>
+    <!-- Подключение локальных файлов стилей Bootstrap -->
+    <link href="/MH_Webstore/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Подключение скриптов для работы dropdown-menu -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+<div class="row">
+    <div class="container">
+
+        <!--    Раздел "Меню"-->
+        <div class="col-3 bg-dark h-100 fixed-bottom">
+            <nav class="nav flex-column text-light bg-dark nav-pills nav-fill">
+                <h3><img src="MENU.jpg"> Меню </h3>
+                <a class="nav-link text-light" href="/MH_Webstore/main.html"><img src="MAIN.jpg"> Главная</a>
+                <a class="nav-link text-light" href="/MH_Webstore/html/catalog.html"><img src="CATALOG.jpg"> Каталог</a>
+                <a class="nav-link text-light" href="/MH_Webstore/html/category_1.html"><img src="CATEGORY.jpg">
+                    Категории</a>
+                <a class="nav-link text-light" href="#"><img src="ORDERS.jpg"> Заказы</a>
+                <a class="nav-link active" aria-current="page" href="/MH_Webstore/html/contacts.html"><img
+                        src="CONTACTS.jpg"> Контакты</a>
+                <div class="col-3 fixed-bottom">
+                    <ul class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light bg-dark nav-pills nav-fill" data-toggle="dropdown"
+                           href="#"
+                           role="button"
+                           aria-expanded="false"><img src="/MH_Webstore/html/USER.jpg"> Пользователь</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Профиль</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Выход</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--    Раздел "Контакты"-->
+    <div class="row justify-content-end g-5">
+        <div class="col-9 g-5 align-self-center">
+            <h1 class="text-center"> Контакты</h1>
+
+            <div class="row align-items-md-stretch gy-5">
+
+                <div class="p-4 col-md-6">
+                    <div class="mb-2">
+                        <label for="exampleFormControlInput1" class="form-label">Имя</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="mb-2">
+                        <label for="exampleFormControlInput1" class="form-label">Почта</label>
+                    </div>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" aria-label="Username"
+                               aria-describedby="basic-addon1">
+                    </div>
+                    <div class="mb-2">
+                        <label for="exampleFormControlTextarea1" class="form-label">Сообщение</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary">Отправить</button>
+                </div>
+
+                <div class="p-5 col-md-6">
+                    <p class="text-start">Prevent long strings of text from breaking your components’ layout by using
+                        .text-break to set word-wrap: break-word and word-break: break-word. We use word-wrap instead of
+                        the
+                        more common overflow-wrap for wider browser support, and add the deprecated word-break:
+                        break-word
+                        to avoid issues with flex containers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

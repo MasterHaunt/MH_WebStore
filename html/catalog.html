@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MH-WebStore - каталог</title>
+    <!-- Подключение локальных файлов стилей Bootstrap -->
+    <link href="/MH_Webstore/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Подключение скриптов для работы dropdown-menu -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+<div class="row">
+    <div class="container">
+
+        <!--    Раздел "Меню"-->
+        <div class="col-3 bg-dark h-100 fixed-bottom">
+            <nav class="nav flex-column text-light bg-dark nav-pills nav-fill">
+                <h3><img src="MENU.jpg"> Меню </h3>
+                <a class="nav-link text-light" href="/MH_Webstore/main.html"><img src="MAIN.jpg"> Главная</a>
+                <a class="nav-link active" aria-current="page" href="#"><img src="CATALOG.jpg"> Каталог</a>
+                <a class="nav-link text-light" href="/MH_Webstore/html/category_1.html"><img src="CATEGORY.jpg">
+                    Категории</a>
+                <a class="nav-link text-light" href="#"><img src="ORDERS.jpg"> Заказы</a>
+                <a class="nav-link text-light" href="/MH_Webstore/html/contacts.html"><img src="CONTACTS.jpg"> Контакты</a>
+                <div class="col-3 fixed-bottom">
+                    <ul class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light bg-dark nav-pills nav-fill" data-toggle="dropdown"
+                           href="#"
+                           role="button"
+                           aria-expanded="false"><img src="/MH_Webstore/html/USER.jpg"> Пользователь</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Профиль</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Выход</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--    Раздел "Каталог"-->
+
+    <div class="row justify-content-end">
+        <div class="col-9 align-self-center">
+            <h1 class="p-4 text-center"> Каталог</h1>
+            <div class="row row-cols-1 row-cols-md-2 p-3">
+
+                <div class="col-4">
+                    <div class="card mb-4">
+                        <svg class="bd-placeholder-img card-img-bottom" width="100%" height="180"
+                             xmlns="http://www.w3.org/2000/svg" role="img"
+                             aria-label="Placeholder: Some photo" preserveAspectRatio="xMidYMid slice"
+                             focusable="false"><title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#868e96"></rect>
+                            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Фото катерогии 1</text>
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Категория 1</h5>
+                            <p class="card-text">Краткое описание товаров категории 1.</p>
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-primary">View</button>
+                                <button type="button" class="btn btn-outline-primary">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card mb-4">
+                        <svg class="bd-placeholder-img card-img-bottom" width="100%" height="180"
+                             xmlns="http://www.w3.org/2000/svg" role="img"
+                             aria-label="Placeholder: Some photo" preserveAspectRatio="xMidYMid slice"
+                             focusable="false"><title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#868e96"></rect>
+                            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Фото катерогии 2</text>
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Категория 2</h5>
+                            <p class="card-text">Краткое описание товаров категории 2.</p>
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-primary">View</button>
+                                <button type="button" class="btn btn-outline-primary">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4">
+                        <svg class="bd-placeholder-img card-img-bottom" width="100%" height="180"
+                             xmlns="http://www.w3.org/2000/svg" role="img"
+                             aria-label="Placeholder: Some photo" preserveAspectRatio="xMidYMid slice"
+                             focusable="false"><title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#868e96"></rect>
+                            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Фото катерогии 3</text>
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Категория 3</h5>
+                            <p class="card-text">Краткое описание товаров категории 3.</p>
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-primary">View</button>
+                                <button type="button" class="btn btn-outline-primary">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4">
+                        <svg class="bd-placeholder-img card-img-bottom" width="100%" height="180"
+                             xmlns="http://www.w3.org/2000/svg" role="img"
+                             aria-label="Placeholder: Some photo" preserveAspectRatio="xMidYMid slice"
+                             focusable="false"><title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#868e96"></rect>
+                            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Фото катерогии 4</text>
+                        </svg>
+                        <div class="card-body">
+                            <h5 class="card-title">Категория 4</h5>
+                            <p class="card-text">Краткое описание товаров категории 4.</p>
+                            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                                <button type="button" class="btn btn-outline-primary">View</button>
+                                <button type="button" class="btn btn-outline-primary">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
